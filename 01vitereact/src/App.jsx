@@ -1,5 +1,4 @@
-import Chai from "./chai"
-// importing Chai function in App function
+import Chai from "./chai" // importing Chai function in App function
 
 function App() {
 
