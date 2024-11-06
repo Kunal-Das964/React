@@ -5,20 +5,44 @@ import './App.css'
 
 function App() {
 
-  let [count,setCount] = useState(10)
+  let [count, setCount] = useState(10)
 
-  const addValue=() => {
-      if(count == 20){
-        alert("Counter value not exceed 20")
-      }else{
-        setCount(count + 1)
-      }
+  /*const addValue=() => {
+       if(count == 20){
+         alert("Counter value not exceed 20")
+       }else{
+         setCount(count + 1)
+       }
+   }*/
+  
+  /*const addValue=() => {
+       if(count == 20){
+         alert("Counter value not exceed 20")
+       }else{
+         setCount(count + 1)
+         setCount(count + 1)
+         setCount(count + 1)
+         setCount(count + 1)
+         setCount(count + 1)
+       }
+   }*/
+
+  const addValue = () => {
+    if (count == 200) {
+      alert("Counter value not exceed 200")
+    } else {
+      setCount(prevCounter => prevCounter + 1)
+      setCount(prevCounter => prevCounter + 1)
+      setCount(prevCounter => prevCounter + 1)
+      setCount(prevCounter => prevCounter + 1)
+      setCount(prevCounter => prevCounter + 1)
+    }
   }
 
   const removeValue = () => {
-    if(count == 0){
+    if (count == 0) {
       alert("Counter value not accepts negative value")
-    }else{
+    } else {
       setCount(count - 1)
     }
   }
