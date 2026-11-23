@@ -48,7 +48,7 @@ Users can create and manage tasks, mark tasks as completed, filter the task list
 1. Clone the repository:
 
    ```bash
-   git clone <your-repository-url>
+   git clone <https://github.com/Kunal-Das964/React/tree/main/Todo%20App>
    ```
 
 2. Open the project folder:
@@ -130,7 +130,7 @@ This project provides practical experience with the fundamentals of React: build
 
 ## Author
 
-**Your Name**
+**Kunal Das**
 
 ---
 
