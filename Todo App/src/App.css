@@ -1,0 +1,156 @@
+/* Main application */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 40px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  color: #5b4bdb;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #777;
+}
+
+/* Form */
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  flex : 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.todo-form button {
+  padding: 12px 18px;
+  border:none;
+  border-radius: 6px;
+  background-color: #5b4bdb;
+  color: white;
+  cursor: pointer;
+}
+
+/* Filter */
+
+.todo-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-filter button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.todo-filter .active {
+  background-color: #5b4bdb;
+  color: white;
+}
+
+/* Todo items */
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item span {
+  flex: 1;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Action buttons */
+.todo-actions{
+  display: flex;
+  gap:8px;
+}
+
+.todo-actions button {
+  border: none;
+  background: none;
+  color: #5b4bdb;
+  cursor: pointer;
+}
+
+
+/* Edit input */
+
+.todo-item input[type="text"] {
+  flex: 1;
+  min-width: 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Checkbox */
+
+.todo-item input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+
+/* Action buttons */
+
+.todo-actions button {
+  padding: 5px 8px;
+  font-size: 13px;
+}
+
+/* Save and Cancel buttons */
+
+.todo-item button {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  opacity: 0.8;
+}
+
+.empty-message {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+}
